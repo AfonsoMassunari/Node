@@ -1,0 +1,19 @@
+{
+    "name": "1-zod-introduction",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "zod": "node --import=tsx --watch ./src/zod.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/node": "^24.0.13",
+        "tsx": "^4.20.3",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "zod": "^4.0.5"
+    }
+}
