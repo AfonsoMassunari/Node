@@ -1,0 +1,27 @@
+{
+    "name": "1-introduction",
+    "version": "1.0.0",
+    "main": "server.ts",
+    "scripts": {
+        "start2": "ts-node ./src/server.ts",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "file": "node --import=tsx --watch ./src/file.ts",
+        "start": "node --env-file=.env --import=tsx --watch ./src/server.ts"
+    },
+    "author": "Afonso",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/express": "^5.0.3",
+        "@types/passport-local": "^1.0.38",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.20.3",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "express": "^5.1.0",
+        "helmet": "^8.1.0",
+        "passport": "^0.7.0",
+        "passport-local": "^1.0.0"
+    }
+}
